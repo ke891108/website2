@@ -1,0 +1,49 @@
+/*
+Red Lantern redesign
+HFWD Chapter 1
+*/
+
+/*
+The font size here is set to 62.5% so that
+1em = 10px. This makes adjusting our typography
+a little easier
+*/
+body {
+	margin: 0 auto;
+	width: 800px;
+	padding: 0;
+	background: #6e0427 url('../Shared%20Documents/images/body_bg.gif') repeat-x top;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+}
+
+h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a:link {
+	color: #333;
+	background: #eee;
+}
+a:visited {
+	color: #ff0000;
+	background: #eee;
+}
+
+/* This rule adds a nice style to our ampersands */
+span.amp {
+	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+	font-weight: normal;
+	font-style: italic;
+}
