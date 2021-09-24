@@ -10,11 +10,11 @@ a little easier
 */
 body {
 	margin: 0 auto;
-	width: 800px;
+	width: 1200px;
 	padding: 0;
 	background: #ffffff url('../Shared%20Documents/images/body_bg.gif') repeat-x top;
 	font-family: Helvetica, sans-serif;
-	font-size: 62.5%;
+	font-size: 100%;
 	color: #333;
 }
 
